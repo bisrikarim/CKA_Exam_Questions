@@ -1,6 +1,6 @@
 # CKA_Exam_Questions
 ## Cluster	Installation	and Upgrade
-1.	Create	a	cluster	with	four	nodes,	one	control	plane	node,	and	three worker	nodes.
+1.	Create	a	cluster	with	four	nodes,	one	control	plane	node,	and	three worker	nodes.  
 Create	a	Pod	named	nginx	that	uses	the	container	image nginx:1.27.4-alpine.
 Identify	the	node	the	Pod	has	been	scheduled	on.
 Evict	all	Pods	from	the	node	that	runs	the	Pod	at	once.	Do	not	use	the kubectl	delete	pod	command	to	perform	the	operation.	Ensure that	the	Pod	is	not	running	anymore.
