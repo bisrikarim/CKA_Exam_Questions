@@ -1,5 +1,7 @@
 # CKA_Exam_Questions
 ## Cluster	Installation using Kubeadm
+![Screenshot_20250529_183234_Adobe Acrobat](https://github.com/user-attachments/assets/070d6899-99f3-4e7b-9d12-13835b4f7759)
+
 1.	Create	a	cluster	with	four	nodes,	one	control	plane	node,	and	three worker	nodes.  
 Create	a	Pod	named	nginx	that	uses	the	container	image nginx:1.27.4-alpine.  
 Identify	the	node	the	Pod	has	been	scheduled	on.  
