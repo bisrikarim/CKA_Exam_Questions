@@ -8,7 +8,9 @@ Identify	the	node	the	Pod	has	been	scheduled	on.
 Evict	all	Pods	from	the	node	that	runs	the	Pod	at	once.	Do	not	use	the kubectl	delete	pod	command	to	perform	the	operation.	Ensure that	the	Pod	is	not	running	anymore.  
 Prerequisite:	To	create	a	cluster	with	4	nodes	using	minikube,	run	the command	minikube	start	--nodes	4. 2.	Navigate	to	the	directory	app-a/ch04/upgrade-cluster-version	of	the checked-out	GitHub	repository	bmuschko/cka-study-guide.  
 Start	up	the	VMs	running	the	cluster	using	the	command	vagrant up.	The	cluster	consists	of	a	single	control	plane	node	named	kubecontrol-plane,	and	one	worker	node	named	kube-worker-1. Open	an	interactive	shell	into	the	control	plane	node	and	inspect	the currently-used	Kubernetes	version	by	listing	all	the	nodes.  
-Upgrade	all	nodes	of	the	cluster	from	Kubernetes	1.32.1	to	1.32.2.  
+Upgrade	all	nodes	of	the	cluster	from	Kubernetes	1.32.1	to	1.32.2.
+![Screenshot_20250529_184945_Adobe Acrobat](https://github.com/user-attachments/assets/ca140fcd-5553-4024-be29-2870c8db6d17)
+
 Once	done,	shut	down	the	cluster	using	vagrant	destroy	-f.
 
 ## Backing	Up	and Restoring	etcd
