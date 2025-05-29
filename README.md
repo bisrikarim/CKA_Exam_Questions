@@ -1,5 +1,6 @@
 # CKA_Exam_Questions
 ## Cluster	Installation using Kubeadm
+https://github.com/bisrikarim/CKA_Exam_Questions/blob/main/Screenshot_20250529_183234_Adobe%20Acrobat.jpg
 1.	Create	a	cluster	with	four	nodes,	one	control	plane	node,	and	three worker	nodes.  
 Create	a	Pod	named	nginx	that	uses	the	container	image nginx:1.27.4-alpine.  
 Identify	the	node	the	Pod	has	been	scheduled	on.  
